@@ -25,14 +25,15 @@ Raul Miller
 Docs:
 
 Most of this code is implemented using numeric parsing tables.  These tables have the structure:  
-* row index: state number  
-* col index: character class  
+
+ * row index: state number  
+ * col index: character class  
 (and the comments on the tables should document these indices)
 
 each element of the table is a pair of numbers, these pairs have the interpretation:
 
-* first: row index of the next state  
-* second: opCode -- interpreted by Run() in SequentialMachine.cs  
+ * first: row index of the next state  
+ * second: opCode -- interpreted by Run() in SequentialMachine.cs  
 
     0: no op  
     1: mark begining of word or sequence  
