@@ -44,7 +44,7 @@ sequences are like words except that we can extend them IF WE DO SO IN THE SAME 
 
 the machine processes a sequences as a state machine, one character at a time, with steadily increasing indices into the sequence.
 
-Design credit for this machine: Ken Iverson and Roger Hui
+Design credit for this machine: Ken Iverson and Roger Hui (http://www.jsoftware.com/help/dictionary/d332.htm)
 
 Raul Miller
 2012-09-12
