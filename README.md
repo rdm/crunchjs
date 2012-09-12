@@ -33,6 +33,7 @@ each element of the table is a pair of numbers, these pairs have the interpretat
 
 first: row index of the next state  
 second: opCode -- interpreted by Run() in SequentialMachine.cs  
+
     0: no op  
     1: mark begining of word or sequence  
     2: end word, mark begining of word or sequence  
